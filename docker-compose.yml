@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      WEBHOOK_URL: 'http://your-production-url/webhook/user-question'
+      AUTH_NAME: 'your-auth-name'
+      AUTH_VALUE: 'your-auth-value' 
