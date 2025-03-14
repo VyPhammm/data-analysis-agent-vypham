@@ -36,9 +36,9 @@ This project is a dark mode chatbot UI that allows users to query data through n
 
 3. **Configuration**:
    The application can be configured through environment variables:
-   - `WEBHOOK_URL`: URL of your n8n webhook (default: http://localhost:5678/webhook/user-question)
+   - `WEBHOOK_URL`: URL of your n8n webhook
    - `AUTH_NAME`: Authentication header name (default: admin)
-   - `AUTH_VALUE`: Authentication value (default: vyphamdata)
+   - `AUTH_VALUE`: Authentication value (default: admin)
 
    These can be modified in the `docker-compose.yml` file.
 
@@ -83,13 +83,13 @@ To use this chatbot, you need to set up an n8n workflow that:
 ## Screenshots
 
 ### Chat Interface
-[Place screenshot here]
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/85a5acef-4f41-4ddc-9571-e311e41955ee" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/86181685-7dfb-4d32-820c-6dc616420760" />
 
-### Data Visualization
-[Place screenshot here]
 
-### n8n Workflow Example
-[Place screenshot here]
+### n8n Workflow
+![image](https://github.com/user-attachments/assets/86b7a7de-11c3-4e76-86ab-89083d61adcf)
+
 
 ## Limitations
 
@@ -98,7 +98,3 @@ To use this chatbot, you need to set up an n8n workflow that:
 - No streaming responses
 - Dark mode only
 - Fixed size chat window
-
-## License
-
-[Your license information] 
