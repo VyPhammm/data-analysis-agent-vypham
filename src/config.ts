@@ -1,8 +1,8 @@
 const config = {
-  WEBHOOK_URL: 'http://localhost:5678/webhook/user-question',
+  WEBHOOK_URL: '',
   AUTH_HEADER: {
     name: 'admin',
-    value: 'vyphamdata'
+    value: 'admin'
   }
 };
 
