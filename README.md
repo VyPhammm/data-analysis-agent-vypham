@@ -63,9 +63,10 @@ To use this chatbot, you need to set up an n8n workflow that:
 1. Create a new workflow in n8n
 2. Add a Webhook node as the trigger
 3. Configure your data processing nodes (database connections, API calls, etc.)
-4. Ensure the final output is formatted as a table
-5. Activate the workflow and copy the webhook URL
-6. Update the `WEBHOOK_URL` environment variable in the `docker-compose.yml` file
+4. Prepare your database document in a google sheet
+5. Ensure the final output is formatted as a table
+6. Activate the workflow and copy the webhook URL
+7. Update the `WEBHOOK_URL` environment variable in the `docker-compose.yml` file
 
 ## Usage
 
