@@ -4,7 +4,7 @@ A ChatGPT-like interface that connects to an n8n Agent for data generation and a
 
 ## Overview
 
-This project is a dark mode chatbot UI that allows users to query data through natural language. The chatbot connects to an n8n workflow via a webhook, which processes the request and returns data in a tabular format. Users can then visualize this data through bar or line charts.
+This project is a dark-mode chatbot UI that allows users to query data using natural language. The chatbot connects to an n8n workflow via a webhook, which processes the request by reading the database document, generating the required SQL query, and returning the requested data in a tabular format. Users can then visualize this data using bar or line charts.
 
 ## Features
 
