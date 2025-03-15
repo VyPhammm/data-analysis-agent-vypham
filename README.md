@@ -1,6 +1,6 @@
 # Data Analysis Chatbot
 
-A ChatGPT-like interface that connects to an n8n Agent for data generation and analysis, with chart visualization capabilities.
+A Chatbot interface that connects to an n8n Agent for data generation and analysis, with chart visualization capabilities.
 
 ## Overview
 
@@ -93,10 +93,3 @@ To use this chatbot, you need to set up an n8n workflow that:
 
 
 
-## Limitations
-
-- No file uploads
-- No export options for data or charts
-- No streaming responses
-- Dark mode only
-- Fixed size chat window
