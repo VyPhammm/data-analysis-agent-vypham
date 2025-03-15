@@ -89,7 +89,8 @@ To use this chatbot, you need to set up an n8n workflow that:
 
 
 ### n8n Workflow
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/1845e338-e348-49f4-9f10-e3659e801349)
+
 
 
 
